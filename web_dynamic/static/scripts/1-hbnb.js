@@ -1,6 +1,6 @@
 // JavaScript script
 
-$('input[name=checkbox]').change(function() {
+$('input[name=checkbox]').change(function () {
   if ($(this).is(':checked')) {
     amenityObj[$(this).attr('data-name')] = $(this).attr('data-id');
   } else {
